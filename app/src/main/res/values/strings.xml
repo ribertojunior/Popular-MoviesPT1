@@ -1,0 +1,48 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_detail">Movie Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Label for movies list order preference -->
+    <string name="pref_title_list_order">Movies List Order By</string>
+    <!-- Key name for storing order in SharedPreferences-->
+    <string name="pref_order_key" translatable="false">order</string>
+    <!-- Default value for order-->
+    <string name="pref_order_default" translatable="false">popular</string>
+    <!-- Summary for order by most popular -->
+    <string name="pref_order_popular_summary">Most Popular</string>
+    <!-- Summary for order by highest rated -->
+    <string name="pref_order_rating_summary">Highest Rated</string>
+
+
+    <string name="pref_order_rating_entry" translatable="false">top_rated</string>
+    <string name="pref_order_popular_entry" translatable="false">popular</string>
+
+    <string-array name="pref_order_entries">
+        <item>@string/pref_order_popular_summary</item>
+        <item>@string/pref_order_rating_summary</item>
+    </string-array>
+    <string-array name="pref_order_values">
+        <item>@string/pref_order_popular_entry</item>
+        <item>@string/pref_order_rating_entry</item>
+    </string-array>
+
+
+    <!-- Error messages -->
+    <!-- Account type (for sync-adapter authenticator) -->
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">popularmovies.casasw.com</string>
+    <string name="content_authority">com.casasw.popularmovies</string>
+
+    <!-- String format -->
+    <string name="format_year">
+        (<xliff:g id="year">%1$s</xliff:g>)
+    </string>
+    <string name="format_vote">
+        <xliff:g id="vote">%1$s</xliff:g>/10
+    </string>
+    <string name="intent_error">You don\'t have an app installed to perform this action.</string>
+
+</resources>
